@@ -111,7 +111,7 @@ def vis_grasps(gg, cloud):
     o3d.visualization.draw_geometries([cloud, *grippers])
 
 
-def check(net, imgs, visual=False):
+def generate_grasps(net, imgs, visual=False):
     end_points, cloud = get_and_process_data(imgs)
     gg = get_grasps(net, end_points)
     gg = collision_detection(gg, np.array(cloud.points))
@@ -132,7 +132,7 @@ if __name__ == '__main__':
         env.step()
     imgs = env.render()
 
-    gg = check(net, imgs, True)
+    gg = generate_grasps(net, imgs, True)
 
     robot = env.robot
     T_wb = robot.base
