@@ -334,7 +334,7 @@ if __name__ == '__main__':
                 env.step(action)
                 break
 
-    for i in range(1000):
+    for i in range(2000):
         env.step()
 
     env.close()

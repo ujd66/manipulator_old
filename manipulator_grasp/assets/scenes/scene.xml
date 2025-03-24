@@ -51,16 +51,16 @@
 			<geom name="Cylinder" type="cylinder" size="0.025 0.1" rgba="1 1 0 1" condim="6" solref="0.0000000001 1"/>
 		</body>
 
-<!--		<body name="Box" pos="1.4 0.2 0.9" quat="1 0 0 0">-->
-<!--			<joint name="Box" type="free" />-->
-<!--			<geom name="Box" type="box" size="0.025 0.025 0.025" rgba="1 0 1 1" condim="6"/>-->
-<!--		</body>-->
+		<body name="Box" pos="1.4 0.2 0.9" quat="1 0 0 0">
+			<joint name="Box" type="free" />
+			<geom name="Box" type="box" size="0.025 0.025 0.025" rgba="1 0 1 1" condim="6"/>
+		</body>
 
-<!--		<body name="T_block" pos="1.4 1 0.9" quat="1 0 0 0">-->
-<!--			<joint name="T_block" type="free" />-->
-<!--			<geom name="T_block_pt1" type="box" size="0.06 0.02 0.025" rgba="0 0.62 1 1" condim="6"/>-->
-<!--			<geom name="T_block_pt2" type="box" size="0.02 0.06 0.025" pos="0.08 0 0" rgba="0 0.62 1 1" condim="6"/>-->
-<!--		</body>-->
+		<body name="T_block" pos="1.4 1 0.9" quat="1 0 0 0">
+			<joint name="T_block" type="free" />
+			<geom name="T_block_pt1" type="box" size="0.06 0.02 0.025" rgba="0 0.62 1 1" condim="6"/>
+			<geom name="T_block_pt2" type="box" size="0.02 0.06 0.025" pos="0.08 0 0" rgba="0 0.62 1 1" condim="6"/>
+		</body>
 
 		<!--Zones-->
 		<body name="zone_pickup" pos="1.4 0.6 0.73" quat="1 0 0 0">
