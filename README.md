@@ -1,4 +1,4 @@
-# UR5机械臂智能抓取系统
+# 机械臂智能抓取系统
 
 ## 项目简介
 
@@ -414,6 +414,7 @@ checkpoint_path = '/path/to/your/checkpoint.tar'
 ## 贡献指南
 
 欢迎提交问题和改进建议！
+
 
 
 
