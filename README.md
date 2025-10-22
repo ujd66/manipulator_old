@@ -174,8 +174,7 @@ export DISPLAY=:0
 ### 1. 克隆项目
 
 ```bash
-cd /home/lab/
-git clone <repository_url> manipulator_old
+git clone 
 cd manipulator_old
 ```
 
@@ -416,26 +415,7 @@ checkpoint_path = '/path/to/your/checkpoint.tar'
 
 欢迎提交问题和改进建议！
 
-1. Fork本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启Pull Request
 
-## 联系方式
 
-如有问题，请通过以下方式联系：
-- 提交Issue
-- 发送邮件至项目维护者
 
-## 更新日志
 
-### v1.0.0 (当前版本)
-- 实现基于GraspNet的抓取姿态预测
-- 完成UR5机械臂控制和轨迹规划
-- 支持完整的抓取-搬运-放置任务流程
-- 添加详细的代码注释和文档
-
----
-
-**祝您使用愉快！** 🤖✨
